@@ -1,6 +1,6 @@
 "73474d6c1d4c486096babecf4f5f9bbc": {
       "name": "Paia's Pack",
-      "gameDir": "/home/Flero/.minecraft/instances/Paia's_pack",
+      "gameDir": "~/.minecraft/instances/Paia's_pack",
       "lastVersionId": "fabric-loader-0.17.3-1.21.1",
       "javaArgs": "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -Djava.net.preferIPv4Stack=false",
       "resolution": {

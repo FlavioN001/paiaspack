@@ -1,0 +1,9 @@
+{
+  "configVersion": 2,
+  "windMode": "WAVES",
+  "capeStyle": "BLOCKY",
+  "capeMovement": "VANILLA",
+  "gravity": 25,
+  "heightMultiplier": 16,
+  "straveMultiplier": 2
+}

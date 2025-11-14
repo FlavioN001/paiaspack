@@ -1,0 +1,21 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"gobber2:gobber2_globette_nether"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_ore_nether"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_glob_nether"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_ingot_nether"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_block_nether"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_rod_nether"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_staff_stars"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_boots_dragon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_leggings_dragon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_chestplate_dragon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_helmet_dragon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:dragon_star"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:dragon_elytra"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_ingot_end"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_ore_end"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_globette_end"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:gobber2_glob_end"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

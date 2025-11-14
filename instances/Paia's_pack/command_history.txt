@@ -1,0 +1,35 @@
+/fill 183 64 52
+/fill 183 64 52 81 64 124 stone
+/time set day
+/fill 121 87 279
+/fill 121 87 279 167 87 211 stone
+/give @s stone[
+/give @s stone
+/give @s stone 63
+/time set day
+/effect give @a minecraft:saturation infinite 255 true
+/weather rain
+/weather thunder
+/tp @s 0 0 0
+/tp @s 0 90 0
+/kill
+/time set day
+/weather thunder
+/gamemode creative
+/locate structure
+/locate structure #nova_structures:bastion_remnant
+/locate structure #nova_structures:creeping_crypt
+/tp @s 4592 ~ -400
+/locate structure #nova_structures:
+/locate structure #nova_structures:jungle_ruins
+/tp @s -448 ~ 4240
+/effect give @s minecraft:night_vision
+/effect give @s minecraft:night_vision infinite
+/effect give @s minecraft:night_vision infinite 255 true
+/gamemode creative
+/time set day
+/time set night
+/time set midnight
+/time set day
+/locate structure minecraft:village_plains
+/tp @s 704 ~ 880

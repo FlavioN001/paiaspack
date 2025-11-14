@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mythicmetals:kyber_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mythicmetals:aquarium_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

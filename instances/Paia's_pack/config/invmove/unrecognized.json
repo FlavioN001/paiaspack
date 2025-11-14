@@ -1,0 +1,38 @@
+{
+  "allowMovement": {
+    "xaero.map.gui.GuiMap": true,
+    "net.minecraft.class_433": true,
+    "net.minecraft.class_429": true,
+    "loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen": true,
+    "net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI": true,
+    "xaero.map.gui.GuiWorldMapSettings": true,
+    "xaero.common.gui.GuiMinimapMain": true,
+    "xaero.common.gui.GuiEditMode": true,
+    "xaero.common.gui.GuiMinimapViewSettings": true,
+    "xaero.common.gui.GuiWaypointSettings": true,
+    "xaero.common.gui.GuiMinimapMiscSettings": true,
+    "xaero.common.gui.GuiEntityRadarSettings": true,
+    "net.minecraft.class_443": true,
+    "io.github.foundationgames.automobility.screen.AutoMechanicTableScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "com.talhanation.smallships.client.gui.screens.inventory.ShipContainerScreen": true,
+    "immersive_aircraft.client.gui.VehicleScreen": true,
+    "net.levelz.screen.LevelScreen": true,
+    "net.levelz.screen.SkillRestrictionScreen": true,
+    "fi.dy.masa.minihud.gui.GuiConfigs": true,
+    "net.minecraft.class_5375": true,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
+    "dev.lambdaurora.lambdynlights.gui.SettingsScreen": true,
+    "net.minecraft.class_458": true,
+    "net.minecraft.class_6599": true,
+    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
+    "com.tiviacz.travelersbackpack.client.screens.BackpackScreen": true,
+    "com.tiviacz.travelersbackpack.client.screens.BackpackSettingsScreen": true
+  },
+  "hideBackground": {
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "net.levelz.screen.LevelScreen": true,
+    "net.levelz.screen.SkillRestrictionScreen": true
+  }
+}

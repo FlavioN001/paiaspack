@@ -1,0 +1,44 @@
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.26.1
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: /home/Flero/.minecraft/instances/Paia's_pack/CustomSkinLoader
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Linux (amd64) version 6.12.56-1-lts
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.7, Microsoft
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.21.1
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Config File: /home/Flero/.minecraft/instances/Paia's_pack/CustomSkinLoader/CustomSkinLoader.json
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GameProfile
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.26.1
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 36
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "GameProfile", "type": "GameProfile" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2025-11-13 20:53:27] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2025-11-13 20:53:27] [Flero114/INFO] [CustomSkinLoader Core]: Loading Flero114's profile.
+[2025-11-13 20:53:27] [Flero114/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'GameProfile'.
+[2025-11-13 20:53:27] [Flero114/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-11-13 20:53:27] [Flero114/INFO] [CustomSkinLoader Core]: Flero114's profile loaded.
+[2025-11-13 20:53:27] [Flero114/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.skmedix.pl/skins/18/1813ca8abc4f35f79276bada8688ccf46907a3d0d01735.69303101.png , Model: default , CapeUrl: http://textures.skmedix.pl/capes/18/1813ca8abc4f35f79276bada8688ccf46907a41dd953c7.72972616.png  , Expiry: 1763078037)
+[2025-11-13 21:28:36] [Flero114/INFO] [CustomSkinLoader Core]: Loading Flero114's profile.
+[2025-11-13 21:28:36] [Flero114/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'GameProfile'.
+[2025-11-13 21:28:36] [Flero114/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-11-13 21:28:36] [Flero114/INFO] [CustomSkinLoader Core]: Flero114's profile loaded.
+[2025-11-13 21:28:36] [Flero114/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.skmedix.pl/skins/18/1813ca8abc4f35f79276bada8688ccf46907a3d0d01735.69303101.png , Model: default , CapeUrl: http://textures.skmedix.pl/capes/18/1813ca8abc4f35f79276bada8688ccf46907a41dd953c7.72972616.png  , Expiry: 1763080146)

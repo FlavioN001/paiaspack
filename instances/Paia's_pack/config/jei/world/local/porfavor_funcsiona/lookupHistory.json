@@ -1,0 +1,18 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:yellow_concrete_powder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"automobility:auto_mechanic_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"automobility:automobile","components":{"automobility:automobile_data":{"prefab_id":"automobility:wooden_motorcar","frame":"automobility:wooden_motorcar","wheels":"automobility:carriage","engine":"automobility:stone"},"minecraft:item_name":"{\"translate\":\"prefab.automobility.wooden_motorcar\"}"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"automobility:automobile_frame","components":{"automobility:frame":"automobility:standard_magenta"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"automobility:automobile_wheel","components":{"automobility:wheel":"automobility:off_road"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:turtle_master"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:long_weakness"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:long_turtle_master"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:end_stone_brick_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:polished_granite_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:purpur_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_warped_hyphae"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"automobility:automobile_engine","components":{"automobility:engine":"automobility:iron"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"automobility:front_attachment","components":{"automobility:automobile_part":"automobility:mob_controller"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"automobility:rear_attachment","components":{"automobility:automobile_part":"automobility:passenger_seat"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

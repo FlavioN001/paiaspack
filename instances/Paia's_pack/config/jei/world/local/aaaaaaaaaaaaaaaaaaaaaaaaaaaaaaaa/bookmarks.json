@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"artifacts:kitty_slippers"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:golden_carrot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:flint_and_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

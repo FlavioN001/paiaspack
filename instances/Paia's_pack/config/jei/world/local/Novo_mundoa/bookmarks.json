@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:fire_charge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:tropical_fish_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

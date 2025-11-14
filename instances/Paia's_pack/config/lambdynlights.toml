@@ -159,6 +159,85 @@ chunk_rebuild_scheduler = "culling"
 				interaction = true
 				wither = true
 
+			[light_sources.settings.entities.farmersdelight]
+				rotten_tomato = true
+
+			[light_sources.settings.entities.fallingtrees]
+				tree = true
+
+			[light_sources.settings.entities.simplyswords]
+				battlestandard = true
+				livyatan_entity = true
+				frostfall_entity = true
+				simplybeeentity = true
+				battlestandarddark = true
+				thrown_sword = true
+				simplyaxolotlentity = true
+				runic_entity = true
+				spear_entity = true
+
+			[light_sources.settings.entities.gobber2]
+				gobber2_arrow_end = true
+				gobber2_arrow = true
+				gobber2_arrow_nether = true
+
+			[light_sources.settings.entities.gravestones]
+				gravestone_skeleton = true
+
+			[light_sources.settings.entities.amendments]
+				medium_dragon_fireball = true
+				falling_lantern = true
+				medium_fireball = true
+
+			[light_sources.settings.entities.smallships]
+				ground_cannon = true
+				galley = true
+				brigg = true
+				drakkar = true
+				cog = true
+				cannon_ball = true
+
+			[light_sources.settings.entities.immersive_aircraft]
+				cargo_airship = true
+				airship = true
+				bamboo_hopper = true
+				warship = true
+				gyrodyne = true
+				quadrocopter = true
+				biplane = true
+				tiny_tnt = true
+				bullet = true
+
+			[light_sources.settings.entities.supplementaries]
+				dispenser_minecart = true
+				slingshot_projectile = true
+				brick_projectile = true
+				falling_sack = true
+				pearl_marker = true
+				hat_stand = true
+				bomb = true
+				falling_ash = true
+				cannonball = true
+				falling_urn = true
+				red_merchant = true
+				cannon_boat = true
+				rope_arrow = true
+				slimeball_projectile = true
+
+			[light_sources.settings.entities.mythicmetals]
+				banglum_tnt_minecart = true
+				star_platinum_arrow = true
+				runite_arrow = true
+				banglum_tnt = true
+				banglum_nuke = true
+				palladium_minecart = true
+
+			[light_sources.settings.entities.decocraft]
+				seat = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
 [debug]
 	active_dynamic_lighting_cells = false
 	display_dynamic_lighting_chunk_rebuild = false

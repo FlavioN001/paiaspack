@@ -1,0 +1,12 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"immersive_aircraft:hull"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersive_aircraft:biplane"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersive_aircraft:engine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersive_aircraft:propeller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"biomesoplenty:barley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"biomesoplenty:liquid_null_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"biomesoplenty:null_plant"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"fluid":"biomesoplenty:liquid_null"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+]

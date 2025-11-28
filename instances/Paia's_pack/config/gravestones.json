@@ -1,7 +1,4 @@
 {
-  "show_heads": true,
-  "time_format": "MMDDYYYY",
-  "console_info": false,
   "decay_with_deaths": true,
   "decay_with_time": true,
   "decay_time": 576000,
@@ -18,5 +15,8 @@
   "aesthetic_gravestones": true,
   "spawn_gravestone_skeletons": false,
   "spawn_gravestones_in_creative": false,
-  "spawn_gravestones_with_keepinv": false
+  "spawn_gravestones_with_keepinv": false,
+  "show_heads": true,
+  "time_format": "MMDDYYYY",
+  "console_info": false
 }

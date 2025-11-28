@@ -1,0 +1,42 @@
+{
+  "key": {
+    "A": {
+      "ingredient": {
+        "item": "minecraft:oak_planks"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "minecraft:jungle",
+      "fabric:type": "moonlight:block_type_swap"
+    },
+    "B": {
+      "ingredient": {
+        "tag": "c:rods/wooden"
+      },
+      "block_type": "minecraft:wood_type",
+      "from": "minecraft:oak",
+      "to": "minecraft:jungle",
+      "fabric:type": "moonlight:block_type_swap"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " B "
+  ],
+  "result": {
+    "id": "supplementaries:way_sign_jungle",
+    "count": 3
+  },
+  "category": "misc",
+  "type": "minecraft:crafting_shaped",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:false"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

@@ -44,6 +44,10 @@
       "field_13355": "flame"
     },
     {
+      "field_13353": "smallships",
+      "field_13355": "colored_poof"
+    },
+    {
       "field_13353": "minecraft",
       "field_13355": "sculk_charge_pop"
     },
@@ -116,6 +120,10 @@
       "field_13355": "wax_off"
     },
     {
+      "field_13353": "simplyswords",
+      "field_13355": "custom_bubble"
+    },
+    {
       "field_13353": "minecraft",
       "field_13355": "sculk_soul"
     },
@@ -176,6 +184,10 @@
       "field_13355": "item_cobweb"
     },
     {
+      "field_13353": "farmersdelight",
+      "field_13355": "star"
+    },
+    {
       "field_13353": "minecraft",
       "field_13355": "lava"
     },
@@ -220,6 +232,10 @@
       "field_13355": "note"
     },
     {
+      "field_13353": "smallships",
+      "field_13355": "dyed_cannon_shoot"
+    },
+    {
       "field_13353": "minecraft",
       "field_13355": "mycelium"
     },
@@ -240,12 +256,12 @@
       "field_13355": "small_gust"
     },
     {
-      "field_13353": "minecraft",
-      "field_13355": "block"
+      "field_13353": "smallships",
+      "field_13355": "basic_cannon_shoot"
     },
     {
-      "field_13353": "automobility",
-      "field_13355": "drift_smoke"
+      "field_13353": "minecraft",
+      "field_13355": "block"
     },
     {
       "field_13353": "minecraft",
@@ -324,6 +340,10 @@
       "field_13355": "shockwave"
     },
     {
+      "field_13353": "farmersdelight",
+      "field_13355": "steam"
+    },
+    {
       "field_13353": "minecraft",
       "field_13355": "portal"
     },
@@ -394,6 +414,10 @@
     {
       "field_13353": "minecraft",
       "field_13355": "flash"
+    },
+    {
+      "field_13353": "smallships",
+      "field_13355": "cannon_ball_shoot"
     },
     {
       "field_13353": "minecraft",

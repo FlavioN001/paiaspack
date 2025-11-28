@@ -23,7 +23,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 renderDistance:10
-simulationDistance:10
+simulationDistance:8
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","file/Better-Leaves-9.4.zip","minecraft:supporteatinganimation","file/Vanilla Mashup 1.4.1b.zip","moonlight:merged_pack","black_icons","file/LowOnFire 1.21.3.zip","file/Default-Dark-Mode-1.20.2+-2025.5.0.zip"]
-incompatibleResourcePacks:["appleskin","bookshelf","carryon","decocraft","enchdesc","entity_texture_features","jade","jei","modernfix","mr_dungeons_andtaverns","patchouli","terrablender","toms_storage","xaerominimap","xaeroworldmap","yet_another_config_lib_v3"]
+resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","file/Nautilus3D-V2.2.zip","minecraft:supporteatinganimation","file/Vanilla Mashup 1.4.1b.zip","file/Clean_Connected_Glass(1.21).zip","file/It\u0027s All Connected v1.1.zip","file/CTM-Overhaul-V_5.0.zip","moonlight:merged_pack","black_icons","file/LowOnFire 1.21.3.zip","file/Default-Dark-Mode-1.20.2+-2025.5.0.zip","file/FreshAnimations_v1.10.2.zip"]
+incompatibleResourcePacks:["appleskin","balm","carryon","entity_model_features","entity_texture_features","jei","sophisticatedcore","sophisticatedstorage","toms_storage","waystones","xaerominimap","xaeroworldmap","yet_another_config_lib_v3","file/CTM-Overhaul-V_5.0.zip"]
 lastServer:
 lang:pt_br
 chatVisibility:0
@@ -128,9 +128,6 @@ key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.scarf_of_invisibility.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
-key_keybinds.bettercombat.feint:key.keyboard.unknown
-key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
-key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
 key_key.bridgingmod.toggle_bridging:key.keyboard.comma
 key_key.carry.desc:key.keyboard.unknown
 key_key.cavedust.toggle:key.keyboard.unknown
@@ -149,13 +146,6 @@ key_key.immersive_aircraft.dismount:key.keyboard.r
 key_key.immersive_aircraft.boost:key.keyboard.left.alt
 key_keybind.invmove.toggleMove:key.keyboard.unknown
 key_key.pickup.item:key.keyboard.unknown
-key_key.jade.config:key.keyboard.keypad.0
-key_key.jade.show_overlay:key.keyboard.keypad.1
-key_key.jade.toggle_liquid:key.keyboard.keypad.2
-key_key.jade.show_recipes:key.keyboard.keypad.3
-key_key.jade.show_uses:key.keyboard.keypad.4
-key_key.jade.narrate:key.keyboard.keypad.5
-key_key.jade.show_details_alternative:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o
 key_key.jei.focusSearch:key.keyboard.f
 key_key.jei.previousPage:key.keyboard.unknown
@@ -193,6 +183,7 @@ key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.presencefootsteps.toggle:key.keyboard.unknown
 key_key.smallships.ship_sail:key.keyboard.i
 key_key.smallships.cannon_barrel_enter:key.keyboard.k
+key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_key.toms_storage.open_terminal:key.keyboard.unknown
 key_key.trade_cycling.cycle_trades:key.keyboard.unknown
 key_key.travelersbackpack.inventory:key.keyboard.b
@@ -200,7 +191,6 @@ key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
 key_key.travelersbackpack.cycle_tool:key.keyboard.z
 key_key.travelersbackpack.toggle_tank:key.keyboard.period
-key_key.veinminer-client.veinmine:key.keyboard.y
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.j
@@ -241,13 +231,13 @@ key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.f6
-key_iris.keybind.reload:key.keyboard.f4
+key_iris.keybind.reload:key.keyboard.f7
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.30046948356807507
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

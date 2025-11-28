@@ -28,16 +28,16 @@
     "potions_mixing": "ON",
     "potion_mixing_limit": 8,
     "inverse_potions": {
-      "minecraft:instant_health": "minecraft:instant_damage",
-      "minecraft:instant_damage": "minecraft:instant_health",
-      "minecraft:luck": "minecraft:unluck",
-      "minecraft:speed": "minecraft:slowness",
-      "minecraft:haste": "minecraft:mining_fatigue",
       "minecraft:strength": "minecraft:weakness",
       "minecraft:weakness": "minecraft:strength",
-      "minecraft:unluck": "minecraft:luck",
+      "minecraft:luck": "minecraft:unluck",
+      "minecraft:haste": "minecraft:mining_fatigue",
+      "minecraft:instant_health": "minecraft:instant_damage",
       "minecraft:mining_fatigue": "minecraft:haste",
-      "minecraft:slowness": "minecraft:speed"
+      "minecraft:unluck": "minecraft:luck",
+      "minecraft:slowness": "minecraft:speed",
+      "minecraft:instant_damage": "minecraft:instant_health",
+      "minecraft:speed": "minecraft:slowness"
     },
     "connect_to_fences": true,
     "consistent_lava_layers": false

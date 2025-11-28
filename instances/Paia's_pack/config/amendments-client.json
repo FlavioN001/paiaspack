@@ -44,7 +44,7 @@
       "collision_considers_entity_hitbox": true,
       "collision_inertia": 1.0,
       "collision_force": 15.0,
-      "min_angle": 0.7999998331069946,
+      "min_angle": 0.7999996542930603,
       "max_angle": 60.0,
       "damping": 0.5249999761581421
     }
@@ -56,7 +56,7 @@
       "collision_considers_entity_hitbox": true,
       "collision_inertia": 1.0,
       "collision_force": 15.0,
-      "min_angle": 0.7999998331069946,
+      "min_angle": 0.7999996542930603,
       "max_angle": 60.0,
       "damping": 0.5249999761581421
     },

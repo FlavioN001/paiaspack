@@ -18,6 +18,7 @@ Todos os testes realizados foram com o [SK Launcher](https://skmedix.pl/), entã
 
 Na aba [releases](https://github.com/FlavioN001/paiaspack/releases), selecione a versão mais recente disponível para o seu sistema operacional (Windows ou Linux).
 - **Execução**
+
 WINDOWS
 
 Execute o instalador e ignore possíveis notificações do windows defender, o windows só não gosta de pobre.
@@ -71,20 +72,25 @@ Depois, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro da 
 1- Crie uma instância
 ![troubleshooting step 1](/assets/preview6.png)
 
+
 2- Mude o nome da instância para `Paia's Pack`
 ![troubleshooting step 2](/assets/preview7.png)
 
+
 3- Crie uma pasta separada para a instância
 ![troubleshooting step 3](/assets/preview8.png)
+
 
 4- Mude a versão para Fabric 1.21.1
 ![troubleshooting passo 4](/assets/preview9.png)
 ![troubleshooting passo 5](/assets/preview10.png)
 
+
 5- Troque o último argumento da JVM para false
 ![troubleshooting passo 6](/assets/preview11.png)
 ![troubleshooting passo 7](/assets/preview12.png)
 ![troubleshooting passo 8](/assets/preview13.png)
+
 
 - Agora salve as opções e seja feliz!
 

@@ -95,3 +95,4 @@ Depois, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro da 
 - Agora salve as opções e seja feliz!
 
 ### Isso me deu muito trabalho e eu estou contente com o resultado, apesar da demora.
+

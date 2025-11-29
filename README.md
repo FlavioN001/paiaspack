@@ -5,10 +5,10 @@
 
 - Dependência: [git](https://git-scm.com/install/)
 
-É, bem simples. Só tenha o [git](https://git-scm.com/install/) instalado e tudo deve funcionar bem. O programa tentará instalar automaticamente se não tiver instalado. Se houver qualquer problema, entre em contato comigo que eu tentarei te ajudar com ele. Também há a opção de instalar manualmente, então tem salvação sim.
+É, bem simples. Só tenha o [git](https://git-scm.com/install/) instalado e tudo deve funcionar bem. O programa tentará instalar automaticamente se não tiver instalado. Se houver qualquer problema, entre em contato comigo que eu tentarei te ajudar com ele.
 
 - Nota: 
-Teoricamente, o software deve funcionar no MacOS se o homebrew estiver instalado, mas não foi testado. Então se for o caso, apenas siga o processo de instalação do Linux e descubra o que acontece.
+Teoricamente, o software deve funcionar no MacOS se o homebrew estiver instalado, mas não foi testado. Então se for o caso, apenas siga o processo de instalação do Linux e descubra o que acontece. Também há a opção de instalar manualmente, então na verdade tem salvação sim.
 
 ### Passo 1 - Tenha um launcher de minecraft instalado.
 

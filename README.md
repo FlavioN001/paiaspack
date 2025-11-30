@@ -54,7 +54,7 @@ Agora que o modpack foi instalado corretamente, ao abrir o sklauncher, ele deve 
 ![prévia do launcher após a instalação](/assets/preview2.png)
 
 - Não se esqueça de alocar memória o suficiente para o modpack!
-é recomendado entre 3gb e 4gb de ram.
+é recomendado entre 3gb e 4gb de ram.\
 ![prévia do botão de editar instância](/assets/preview3.png)
 ![prévia da alocação de memória](/assets/preview4.png)
 
@@ -70,26 +70,26 @@ Depois, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro da 
 - Depois, no [SK Launcher](https://skmedix.pl/), crie uma instância seguindo os seguintes passos:
 
 1- Crie uma instância\
-![troubleshooting step 1](/assets/preview6.png) \
+![troubleshooting step 1](/assets/preview6.png)
 
 
 2- Mude o nome da instância para `Paia's pack`\
-![troubleshooting step 2](/assets/preview7.png) \
+![troubleshooting step 2](/assets/preview7.png)
 
 
 3- Crie uma pasta separada para a instância\
-![troubleshooting step 3](/assets/preview8.png) \
+![troubleshooting step 3](/assets/preview8.png)
 
 
 4- Mude a versão para Fabric 1.21.1\
-![troubleshooting passo 4](/assets/preview9.png) \
-![troubleshooting passo 5](/assets/preview10.png) \
+![troubleshooting passo 4](/assets/preview9.png)
+![troubleshooting passo 5](/assets/preview10.png)
 
 
 5- Troque o último argumento da JVM para false\
-![troubleshooting passo 6](/assets/preview11.png) \
-![troubleshooting passo 7](/assets/preview12.png) \
-![troubleshooting passo 8](/assets/preview13.png) \
+![troubleshooting passo 6](/assets/preview11.png)
+![troubleshooting passo 7](/assets/preview12.png)
+![troubleshooting passo 8](/assets/preview13.png)
 
 
 - Agora salve as opções e seja feliz!

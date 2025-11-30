@@ -21,7 +21,7 @@ Na aba [releases](https://github.com/FlavioN001/paiaspack/releases), selecione a
 
 WINDOWS
 
-Execute o instalador e ignore possíveis notificações do windows defender, o windows só não gosta mim desde a vez que eu não deixei bolo pra ele.
+Execute o instalador e ignore possíveis notificações do windows defender, o windows não deve gostar muito de mim.
 
 LINUX
 

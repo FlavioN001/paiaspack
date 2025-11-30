@@ -27,8 +27,8 @@ LINUX
 
 Abra uma janela de terminal, e acesse o diretório no qual você baixou o instalador (provavelmente `~/Downloads`), permita que o arquivo execute como programa, e abra ele, desta forma: 
 ```
-cd "~/Downloads"
-sudo chmod +x "Paias_Pack_installer-LINUX"
+cd ~/Downloads/
+sudo chmod +x Paias_Pack_installer-LINUX
 ./Paias_Pack_installer-LINUX
 ```
 

@@ -65,7 +65,7 @@ Se tudo der errado e a vida parecer triste, ainda existe a opção de instalar o
 - Baixe esse repositório pela interface do github:
 ![prévia da interface do github](/assets/preview5.png)
 
-Depois, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro da [sua pasta .minecraft](https://minecraft.fandom.com/pt/wiki/.minecraft).
+Em seguida, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro da [sua pasta .minecraft](https://minecraft.fandom.com/pt/wiki/.minecraft).
 
 - Depois, no [SK Launcher](https://skmedix.pl/), crie uma instância seguindo os seguintes passos:
 

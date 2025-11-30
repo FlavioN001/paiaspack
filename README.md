@@ -73,7 +73,7 @@ Depois, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro da 
 ![troubleshooting step 1](/assets/preview6.png)
 
 
-2- Mude o nome da instância para `Paia's Pack`
+2- Mude o nome da instância para `Paia's pack`
 ![troubleshooting step 2](/assets/preview7.png)
 
 

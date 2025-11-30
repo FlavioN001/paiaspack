@@ -103,4 +103,4 @@ Em seguida, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro
 
 ### Créditos: 
 Flero - programação, modpack, documentação e servidor\
-Fox - Todos os ícones/logos do modpack\
+Fox - Todos os ícones/logos do modpack

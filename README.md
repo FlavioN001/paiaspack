@@ -102,5 +102,5 @@ Em seguida, extraia o arquivo, encontre a pasta `instances` e mova-a para dentro
 ### Isso me deu muito trabalho e eu estou contente com o resultado, apesar da demora.
 
 ### Créditos: 
-Flero - programação, modpack, documentação e servidor
-Fox - Todos os ícones/logos do modpack
+Flero - programação, modpack, documentação e servidor\
+Fox - Todos os ícones/logos do modpack\

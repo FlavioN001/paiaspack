@@ -58,7 +58,7 @@ Essa opção fecha o programa. (duh)
 Agora que o modpack foi instalado corretamente, ao abrir o sklauncher, ele deve se parecer com isso:
 ![prévia do launcher após a instalação](/assets/preview2.png)
 
-- Não se esqueça de alocar memória o suficiente para o modpack!
+- Não se esqueça de alocar memória o suficiente para o modpack!\
 é recomendado entre 3gb e 4gb de ram.\
 ![prévia do botão de editar instância](/assets/preview3.png)
 ![prévia da alocação de memória](/assets/preview4.png)

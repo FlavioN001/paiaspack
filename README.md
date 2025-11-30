@@ -41,16 +41,16 @@ Se der tudo certo, você se deparará com uma tela parecida com esta:
 
 Aqui está o que cada ação faz, tecnicamente:
 
-- 1- Instalar
+- 1- Instalar\
 Essa opção baixará o modpack com todos os recursos, criará uma instância do modpack exclusiva para ele no seu launcher (para evitar conflito de recursos) e apagará o cache da instalação.
 
-- 2- Desinstalar
+- 2- Desinstalar\
 Essa opção deletará a pasta da instância dentro de .minecraft/instances que contém todos os dados do modpack.
 
-- 3- Atualizar modpack
+- 3- Atualizar modpack\
 Essa opção apagará a pasta mods do modpack e baixará a versão mais nova disponível no repositório git.
 
-- 4- Sair
+- 4- Sair\
 Essa opção fecha o programa. (duh)
 
 ### Passo 4 - Pós-Instalação

@@ -132,7 +132,13 @@ key_key.bridgingmod.toggle_bridging:key.keyboard.comma
 key_key.carry.desc:key.keyboard.unknown
 key_key.cavedust.toggle:key.keyboard.unknown
 key_key.cavedust.reload:key.keyboard.keypad.enter
+key_Skip Forward:key.keyboard.unknown
+key_Skip Previous:key.keyboard.unknown
+key_Toggle Playing:key.keyboard.unknown
+key_Toggle Craftify HUD:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
+key_fpsreducer.key.openGui:key.keyboard.end
+key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.immersive_aircraft.multi_control_left:key.keyboard.a
 key_key.immersive_aircraft.multi_control_right:key.keyboard.d
 key_key.immersive_aircraft.multi_control_forward:key.keyboard.w
@@ -146,6 +152,13 @@ key_key.immersive_aircraft.dismount:key.keyboard.r
 key_key.immersive_aircraft.boost:key.keyboard.left.alt
 key_keybind.invmove.toggleMove:key.keyboard.unknown
 key_key.pickup.item:key.keyboard.unknown
+key_key.jade.config:key.keyboard.keypad.0
+key_key.jade.show_overlay:key.keyboard.keypad.1
+key_key.jade.toggle_liquid:key.keyboard.keypad.2
+key_key.jade.show_recipes:key.keyboard.keypad.3
+key_key.jade.show_uses:key.keyboard.keypad.4
+key_key.jade.narrate:key.keyboard.keypad.5
+key_key.jade.show_details_alternative:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o
 key_key.jei.focusSearch:key.keyboard.f
 key_key.jei.previousPage:key.keyboard.unknown
@@ -181,6 +194,8 @@ key_key.modmenu.open_menu:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.x
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.presencefootsteps.toggle:key.keyboard.unknown
+key_key.showmeyourskin.open_settings:key.keyboard.f12
+key_key.showmeyourskin.global_toggle:key.keyboard.unknown
 key_key.smallships.ship_sail:key.keyboard.i
 key_key.smallships.cannon_barrel_enter:key.keyboard.k
 key_keybind.sophisticatedstorage.sort:key.mouse.middle

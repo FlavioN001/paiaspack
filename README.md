@@ -1,6 +1,11 @@
 # paiaspack
 ## Um modpack que eu fiz para eu e meus amigos jogarem, com um instalador multiplataforma. Aproveitei para praticar minhas habilidades de programação em c++.
 
+# SEASON 2 ESTÁ LANÇADA!
+![Banner da season 2 - arte por FOX](/assets/banner.png)
+
+
+
 ### Eu tentei ao máximo simplificar o lado do usuário, deve ser tão fácil quanto baixar e executar o instalador certo e seguir as instruções.
 
 - Dependência: [git](https://git-scm.com/install/)

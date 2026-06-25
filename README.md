@@ -1,7 +1,7 @@
 # Paia's Pack
 ## Um modpack que eu fiz para eu e meus amigos jogarem, com um instalador multiplataforma. Aproveitei para praticar minhas habilidades de programação em c++.
 
-# Novo Instalador!
+# [Novo Instalador!]("https://github.com/FlavioN001/paiaspack/releases/tag/publish")
 
 # A SEASON 2 CHEGOU!
 ![Banner da season 2 - arte por FOX](/assets/banner.png)

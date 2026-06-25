@@ -91,13 +91,14 @@ void cleanUp(){
 
 //pausar o console
 void pause(){
+    std::cin.clear();
     if (checkSystem()==0) {
         system("pause");
     }
     else {
         system("read -n1 -r -p \"Pressione qualquer tecla para continuar.\"  key");
     }
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 //Mensagens de erro
@@ -113,15 +114,6 @@ int error(std::string type, std::string motivo){
         std::cout << "  Motivo: "<< motivo << ".\n";
         pause();
         exit(1);
-    }
-    //erros do usuário
-    else if (type=="entry") {
-        if (checkSystem()==1) {
-            std::cout << "  Insira uma opção válida.\n" << std::endl;
-        }
-        else {
-            std::cout << "  Insira uma opcao valida.\n" << std::endl;
-        }
     }
     //erro no tar
     else if (type=="tar") {
@@ -234,12 +226,29 @@ void installModPack(std::string texto){
 
 //Desinstalar modpack
 void uninstall(){
-    if (std::filesystem::exists(mpdir())) {
-        std::filesystem::remove_all(mpdir());
+    clear();
+    std::cout << "\n\n  Tem certeza que quer perder todos os dados do modpack? (s/n) \n" << std::endl;
+    std::string resposta;
+    std::cout << "> ";
+    std::cin.clear();
+    std::cin >> resposta;
+    if (resposta == "s") {
+        clear();
+        std::cout << "\n\n  Desinstalando Paia\'s Pack...\n" << std::endl;
+        if (std::filesystem::exists(mpdir())) {
+            std::filesystem::remove_all(mpdir());
+        }
+        cleanUp();
+        clear();
+        std::cout << "\n\n  O Paia\'s Pack foi desinstalado com sucesso!\n" << std::endl;
+        pause();
     }
-    else {
-        std::cout << "  O modpack não está instalado.\n" << std::endl;
+    else if (resposta != "s" && resposta != "n") {
+        std::cout << "\n\n  Insira uma resposta válida\n" << std::endl;
+        pause();
+        uninstall();
     }
+    
 }
 
 //Determina a versão do modpack mais recente
@@ -471,8 +480,8 @@ void restore(){
     std::cout << "  ATENÇÃO! Você pode acabar perdendo os dados do modpack. \n Tem certeza que quer continuar? (s/n) \n" << std::endl;
     std::string resposta;
     std::cout << "> ";
+    std::cin.clear();
     std::cin >> resposta;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     if (resposta == "s") {
         clear();
         std::cout << "  Restaurando Paia\'s Pack...\n" << std::endl;
@@ -618,25 +627,7 @@ int exec(){
                 exec();
             }
             else if (escolha==2) {
-                std::cout << "\n\n  Tem certeza que quer perder todos os dados do modpack? (s/n) \n" << std::endl;
-                std::string resposta;
-                std::cout << "> ";
-                std::cin >> resposta;
-                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-                if (resposta == "s") {
-                    clear();
-                    std::cout << "\n\n  Desinstalando Paia\'s Pack...\n" << std::endl;
-                    uninstall();
-                    cleanUp();
-                    clear();
-                    std::cout << "\n\n  O Paia\'s Pack foi desinstalado com sucesso!\n" << std::endl;
-                    pause();
-                }
-                else if (resposta != "s" && resposta != "n") {
-                    std::cout << "  Insira uma resposta válida\n" << std::endl;
-                    pause();
-                    uninstall();
-                }
+                uninstall();
             }
             else if (escolha==3) {
                 cleanUp();
@@ -666,26 +657,7 @@ int exec(){
                 exec();
             }
             else if (escolha==3) {
-                std::cout << "\n\n  Tem certeza que quer perder todos os dados do modpack? (s/n) \n" << std::endl;
-                std::string resposta;
-                std::cout << "> ";
-                std::cin >> resposta;
-                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-                if (resposta == "s") {
-                    clear();
-                    std::cout << "\n\n  Desinstalando Paia\'s Pack...\n" << std::endl;
-                    uninstall();
-                    cleanUp();
-                    clear();
-                    std::cout << "\n\n  O Paia\'s Pack foi desinstalado com sucesso!\n" << std::endl;
-                    pause();
-                }
-                else if (resposta != "s" && resposta != "n") {
-                    std::cout << "  Insira uma resposta válida\n" << std::endl;
-                    pause();
-                    uninstall();
-                }
-                exec();
+                uninstall();
             }
             else if (escolha==4) {
                 cleanUp();
@@ -694,8 +666,8 @@ int exec(){
             else {
                 std::cout << "  Opção invalida.\n" << std::endl;
                 pause();
-                exec();
             }
+            exec();
         }
         else {
             std::cout
@@ -705,6 +677,7 @@ int exec(){
             << "  3 - Sair" << "\n \n \n \n";
             int escolha;
             std::cout << "> ";
+            std::cin.clear();
             std::cin >> escolha;
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             if (escolha==1) {
@@ -713,26 +686,7 @@ int exec(){
                 exec();
             }
             else if (escolha==2) {
-                std::cout << "\n\n  Tem certeza que quer perder todos os dados do modpack? (s/n) \n" << std::endl;
-                std::string resposta;
-                std::cout << "> ";
-                std::cin >> resposta;
-                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-                if (resposta == "s") {
-                    clear();
-                    std::cout << "\n\n  Desinstalando Paia\'s Pack...\n" << std::endl;
-                    uninstall();
-                    cleanUp();
-                    clear();
-                    std::cout << "\n\n  O Paia\'s Pack foi desinstalado com sucesso!\n" << std::endl;
-                    pause();
-                }
-                else if (resposta != "s" && resposta != "n") {
-                    std::cout << "  Insira uma resposta válida\n" << std::endl;
-                    pause();
-                    uninstall();
-                }
-                exec();
+                uninstall();
             }
             else if (escolha==3) {
                 cleanUp();
@@ -741,9 +695,9 @@ int exec(){
             else {
                 std::cout << "  Opção invalida.\n";
                 pause();
-                exec();
             }
         }
+        exec();
     }
     return 0;
 }

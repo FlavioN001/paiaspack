@@ -57,7 +57,7 @@ Baixa o modpack com todos os recursos, criará uma instância do modpack exclusi
 Faz backup dos dados do jogador, apaga a versão instalada, baixa a mais recente e restaura o backup.
 
 - 3- Restaurar\
-Tenta fazer backup dos dados do jogador, apaga a versão instalada, baixa a mais recente e restaura o bacup. 
+Tenta fazer backup dos dados do jogador, apaga a versão instalada, baixa a mais recente e restaura o backup. 
 
 - 4- Desinstalar\
 Deleta a pasta da instância dentro de .minecraft/instances que contém todos os dados do modpack.

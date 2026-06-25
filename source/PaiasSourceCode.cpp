@@ -496,7 +496,7 @@ void restore(){
 //pra entender como isso funciona de fato.
 void setProfile(){
     std::filesystem::path raw_gamedir = gameDir() / "instances" / "Paia's_pack";
-    std::filesystem::path raw_configPath = gameDir() / "lancher_profiles.json";
+    std::filesystem::path raw_configPath = gameDir() / "launcher_profiles.json";
     std::string configPath = raw_configPath.string();
     std::string gamedir = raw_gamedir.string();
     using json = nlohmann::json;

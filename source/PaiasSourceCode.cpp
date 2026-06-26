@@ -207,7 +207,7 @@ int extractZip(std::filesystem::path file, std::filesystem::path destination){
         extractcommand = "tar -xf \"" + file.string() + "\" -C \"" + destination.string() + "\" > NUL 2>&1";
     }
     else {
-        extractcommand = "tar -xf \"" + file.string() + "\" -C \"" + destination.string() + "\"";
+        extractcommand = "tar -xf \"" + file.string() + "\" -C \"" + destination.string() + "\" > /dev/null 2>&1";
     }
     if (system((extractcommand).c_str())!=0) {
         error("tar", "");
@@ -460,8 +460,9 @@ void update(){
             std::filesystem::create_directory(installPath());  
         }
         backup();
-        uninstall();
-        std::filesystem::path zipdir = mpdir() / "latest.tar.gz";
+        if (std::filesystem::exists(mpdir())) {
+            std::filesystem::remove_all(mpdir());
+        }
         installModPack("Atualizando para " + getSeason());
         
         //Restaurando backup
@@ -469,6 +470,9 @@ void update(){
 
         //Apagando backup
         std::filesystem::remove_all((installPath() / "updateBackup"));
+
+        std::cout << "\n  Atualização concluída.\n" << std::endl;
+        pause();
     }
 }
 
@@ -514,7 +518,7 @@ void setProfile(){
      json newProfile = {
         {"name", "Paia's pack"},
         {"gameDir", gamedir},
-        {"lastVersionId", "fabric-loader-0.17.3-1.21.1"},
+        {"lastVersionId", "fabric-loader-0.19.3-1.21.1"},
         {"javaArgs", "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -Djava.net.preferIPv4Stack=false"},
         {"resolution", {
             {"width", 854},
@@ -566,6 +570,7 @@ int exec(){
             << "  2 - Sair" << "\n \n \n \n";
             int escolha;
             std::cout << "> ";
+            std::cin.clear();
             std::cin >> escolha;
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             if (escolha == 1) {
@@ -587,6 +592,7 @@ int exec(){
         << "  2 - Sair" << "\n \n \n \n";
         int escolha;
         std::cout << "> ";
+        std::cin.clear();
         std::cin >> escolha;
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         
@@ -621,6 +627,7 @@ int exec(){
             << "  3 - Sair" << "\n \n \n \n";
             int escolha;
             std::cout << "> ";
+            std::cin.clear();
             std::cin >> escolha;
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             if (escolha==1) {
@@ -644,6 +651,7 @@ int exec(){
             << "  4 - Sair" << "\n \n \n \n";
             int escolha;
             std::cout << "> ";
+            std::cin.clear();
             std::cin >> escolha;
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');            
             if (escolha==1) {

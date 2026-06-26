@@ -519,7 +519,7 @@ void setProfile(){
         {"name", "Paia's pack"},
         {"gameDir", gamedir},
         {"lastVersionId", "fabric-loader-0.19.3-1.21.1"},
-        {"javaArgs", "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -Djava.net.preferIPv4Stack=false"},
+        {"javaArgs", "-XX:+UnlockExperimentalVMOptions java -XX:+UseZGC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -Djava.net.preferIPv4Stack=false"},
         {"resolution", {
             {"width", 854},
             {"height", 480},

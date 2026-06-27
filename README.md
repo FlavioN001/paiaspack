@@ -1,5 +1,5 @@
 # Paia's Pack
-### Um modpack que eu fiz para eu e meus amigos jogarem, com um instalador multiplataforma. Aproveitei para praticar minhas habilidades de programação em c++.
+### Um modpack em fabric que eu fiz para eu e meus amigos jogarem, com um instalador multiplataforma. Aproveitei para praticar minha programação em c++.
 #
 # A SEASON 2 CHEGOU! 
 # ![Banner da season 2 - arte por FOX](/assets/banner.png)
@@ -34,7 +34,7 @@ Todos os testes realizados foram com o [SK Launcher](https://skmedix.pl/), entã
   
 - LINUX
 
-  Abra uma janela de terminal, e acesse o diretório no qual você baixou o instalador (provavelmente `~/Downloads`). Em seguida, permita que o arquivo execute como programa, e rode-o, desta forma: 
+  Abra uma janela de terminal, e acesse o diretório no qual você baixou o instalador (provavelmente `~/Downloads`). Em seguida, permita que o arquivo execute como programa e rode-o, desta forma: 
 
   ```
   cd ~/Downloads/
@@ -51,13 +51,13 @@ Se der tudo certo, você se deparará com uma tela parecida com esta:
 Estas são todas as funções contidas no configurador:
 
 - 1- Instalar\
-Baixa o modpack com todos os recursos, criará uma instância do modpack exclusiva para ele no seu launcher (para evitar conflito de recursos).
+Baixa o modpack com todos os recursos e cria uma instância exclusiva do modpack no seu launcher (para evitar conflito de recursos).
 
 - 2- Atualizar\
 Faz backup dos dados do jogador, apaga a versão instalada, baixa a mais recente e restaura o backup.
 
 - 3- Restaurar\
-Tenta fazer backup dos dados do jogador, apaga a versão instalada, baixa a mais recente e restaura o backup. 
+Tenta fazer backup dos dados do jogador, apaga a versão instalada, baixa a mais recente e restaura o backup. (é como atualizar sem precisar de uma versão mais nova)
 
 - 4- Desinstalar\
 Deleta a pasta da instância dentro de .minecraft/instances que contém todos os dados do modpack.
@@ -67,7 +67,7 @@ Fecha o programa. (duh)
 
 ### Passo 4 - Pós-Instalação
 
-Agora que o modpack foi instalado corretamente, ao abrir o sklauncher, ele deve se parecer com isso:
+Agora que o modpack foi instalado com sucesso, ao abrir o sklauncher ele deve se parecer com isso:
 ![prévia do launcher após a instalação](/assets/preview2.png)
 
 - Não se esqueça de alocar memória o suficiente para o modpack!\

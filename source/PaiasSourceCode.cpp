@@ -367,41 +367,40 @@ void backup() {
     std::filesystem::path resourcePacks = mpdir() / "resourcepacks";
     std::filesystem::path shaderPacks = mpdir() / "shaderpacks";
     std::filesystem::path saves = mpdir() / "saves";
-    std::filesystem::path configs = mpdir() / "config";
+    std::filesystem::path config = mpdir() / "config";
     std::filesystem::path screenshots = mpdir() / "screenshots";
     std::filesystem::path DHdata = mpdir() / "Distant_Horizons_server_data";
     std::filesystem::path miniMapData = mpdir() / "xaero";
-    //Fazendo backup das pastas
     
-    std::filesystem::create_directory(backupPath);
+    //Fazendo backup das pastas
+    std::filesystem::create_directories(backupPath);
     if (std::filesystem::exists(resourcePacks)) {
         std::filesystem::path resourcebackupPath = backupPath / "resourcepacks";
-        std::filesystem::copy(resourcePacks, resourcebackupPath);
-        
+        std::filesystem::copy(resourcePacks, resourcebackupPath, std::filesystem::copy_options::recursive | std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(shaderPacks)) {
         std::filesystem::path shaderbackupPath = backupPath / "shaderpacks";
-        std::filesystem::copy(shaderPacks, shaderbackupPath);
+        std::filesystem::copy(shaderPacks, shaderbackupPath, std::filesystem::copy_options::recursive | std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(saves)) {
         std::filesystem::path savebackupPath = backupPath / "saves";
-        std::filesystem::copy(saves, savebackupPath);
+        std::filesystem::copy(saves, savebackupPath, std::filesystem::copy_options::recursive | std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::copy_symlinks);
     }
-    if (std::filesystem::exists(configs)) {
+    if (std::filesystem::exists(config)) {
         std::filesystem::path configbackupPath = backupPath / "config";
-        std::filesystem::copy(configs, configbackupPath);
+        std::filesystem::copy(config, configbackupPath, std::filesystem::copy_options::recursive | std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(screenshots)) {
         std::filesystem::path screenshotbackupPath = backupPath / "screenshots";
-        std::filesystem::copy(screenshots, screenshotbackupPath);
+        std::filesystem::copy(screenshots, screenshotbackupPath, std::filesystem::copy_options::recursive | std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(DHdata)) {
         std::filesystem::path DHdatabackupPath = backupPath / "Distant_Horizons_server_data";
-        std::filesystem::copy(DHdata, DHdatabackupPath);
+        std::filesystem::copy(DHdata, DHdatabackupPath, std::filesystem::copy_options::recursive | std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(miniMapData)) {
         std::filesystem::path miniMapDataBackupPath = backupPath / "xaero";
-        std::filesystem::copy(miniMapData, miniMapDataBackupPath);
+        std::filesystem::copy(miniMapData, miniMapDataBackupPath, std::filesystem::copy_options::recursive | std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::copy_symlinks);
     }
 
 
@@ -410,38 +409,40 @@ void backup() {
 
 //Restaurar backup do usuário
 void restoreBackup() {
+    
     std::filesystem::path backupPath = installPath() / "updateBackup";
 
     //Pastas a restaurar backup
     std::filesystem::path resourcePacks = backupPath / "resourcepacks";
     std::filesystem::path shaderPacks = backupPath / "shaderpacks";
     std::filesystem::path saves = backupPath / "saves";
-    std::filesystem::path configs = backupPath / "configs";
+    std::filesystem::path config = backupPath / "config";
     std::filesystem::path screenshots = backupPath / "screenshots";
     std::filesystem::path DHdata = backupPath / "Distant_Horizons_server_data";
     std::filesystem::path miniMapData = backupPath / "xaero";
 
     //Restaurando backup
     if (std::filesystem::exists(resourcePacks)) {
-        std::filesystem::copy(resourcePacks, mpdir() / "resourcepacks", std::filesystem::copy_options::overwrite_existing);
+        std::filesystem::copy(resourcePacks, mpdir() / "resourcepacks", std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::recursive | std::filesystem::copy_options::copy_symlinks);
     }
+
     if (std::filesystem::exists(shaderPacks)) {
-        std::filesystem::copy(shaderPacks, mpdir() / "shaderpacks", std::filesystem::copy_options::overwrite_existing);
+        std::filesystem::copy(shaderPacks, mpdir() / "shaderpacks", std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::recursive | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(saves)) {
-        std::filesystem::copy(saves, mpdir() / "saves", std::filesystem::copy_options::overwrite_existing);
+        std::filesystem::copy(saves, mpdir() / "saves", std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::recursive | std::filesystem::copy_options::copy_symlinks);
     }
-    if (std::filesystem::exists(configs)) {
-        std::filesystem::copy(configs, mpdir() / "configs", std::filesystem::copy_options::overwrite_existing);
+    if (std::filesystem::exists(config)) {
+        std::filesystem::copy(config, mpdir() / "config", std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::recursive | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(screenshots)) {
-        std::filesystem::copy(screenshots, mpdir() / "screenshots", std::filesystem::copy_options::overwrite_existing);
+        std::filesystem::copy(screenshots, mpdir() / "screenshots", std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::recursive | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(DHdata)) {
-        std::filesystem::copy(DHdata, mpdir() / "Distant_Horizons_server_data", std::filesystem::copy_options::overwrite_existing);
+        std::filesystem::copy(DHdata, mpdir() / "Distant_Horizons_server_data", std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::recursive | std::filesystem::copy_options::copy_symlinks);
     }
     if (std::filesystem::exists(miniMapData)) {
-        std::filesystem::copy(miniMapData, mpdir() / "xaero", std::filesystem::copy_options::overwrite_existing);
+        std::filesystem::copy(miniMapData, mpdir() / "xaero", std::filesystem::copy_options::overwrite_existing | std::filesystem::copy_options::recursive | std::filesystem::copy_options::copy_symlinks);
     }
 }
 

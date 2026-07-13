@@ -1,4 +1,5 @@
 # Paia's Pack
+
 ### Um modpack em fabric que eu fiz para eu e meus amigos jogarem, com um instalador multiplataforma. Aproveitei para praticar minha programação em c++.
 #
 # A SEASON 2 CHEGOU! 
@@ -21,7 +22,7 @@ Todos os testes realizados foram com o [SK Launcher](https://skmedix.pl/), entã
 
 - WINDOWS:
   
-  Após o download, ignore qualquer aviso do windows defender .Qualquer suspeita pode ser um falso positivo, [o código fonte está aberto para público, verifique você mesmo.](https://github.com/FlavioN001/paiaspack/blob/main/source/PaiasSourceCode.cpp)
+  Após o download, ignore qualquer aviso do windows defender. Qualquer suspeita deve ser um falso positivo, [o código fonte está aberto para público, verifique você mesmo.](https://github.com/FlavioN001/paiaspack/blob/main/source/PaiasSourceCode.cpp)
   
   Execute o arquivo .exe e instale o modpack.
 

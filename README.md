@@ -1,9 +1,9 @@
 # Paia's Pack
 
 ### Um modpack em fabric que eu fiz para eu e meus amigos jogarem, com um instalador multiplataforma. Aproveitei para praticar minha programação em c++.
-#
-# A SEASON 2 CHEGOU! 
-# ![Banner da season 2 - arte por FOX](/assets/banner.png)
+
+# A SEASON 3 CHEGOU! 
+
 
 ### Novo Instalador!
 
